@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background: #485563;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 15px;
+    border-radius: 20px;
+    border:2px solid black;
+    font-size: 16pt;
+    padding: 10px 15px ;
+    outline: none;
+
+}
+
+input[type=submit]{
+    margin-left: 30px;
+    margin: 2px;
+    border-radius: 20px;
+    font-size: 16pt;
+    padding: 10px 1px;
+    background-color: rgb(64, 158, 103);
+    outline: none;
+    cursor: pointer;
+    color: white;
+
+}
+div#corpo-login{
+    /*background-color: rgba(148, 141, 143, 0.815);*/
+    width: 420px;
+    margin: 120px auto 0px auto;
+}
+
+div#corpo-form{
+    /*background-color: rgba(148, 141, 143, 0.815);*/
+    width: 420px;
+    margin:50px auto 0px auto;
+}
+
+div#corpo-form h1{
+    text-align: center;
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+div#msg-sucesso{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(105, 245, 117, 0.3);
+    border:1px solid rgb(10, 80, 19);
+    text-align: center;
+    font-style: bold;
+    border-radius: 30px;
+    font-size: 20px;
+}
+div.msg-erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(245, 105, 105, 0.3);
+    border:1px solid rgb(80, 10, 10);
+    text-align: center;
+    font-style: bold;
+    border-radius: 30px;
+    font-size: 20px;
+
+}
