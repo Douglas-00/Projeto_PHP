@@ -25,17 +25,9 @@ input{
 
 }
 
-input[type=submit]{
-    margin-left: 30px;
-    margin: 2px;
-    border-radius: 20px;
-    font-size: 16pt;
-    padding: 10px 1px;
-    background-color: rgb(64, 158, 103);
-    outline: none;
-    cursor: pointer;
-    color: white;
-
+.btn{
+    color: brown;
+    width: 10px;
 }
 div#corpo-login{
     /*background-color: rgba(148, 141, 143, 0.815);*/
@@ -49,6 +41,10 @@ div#corpo-form{
     margin:50px auto 0px auto;
 }
 
+div#corpo-login h1{
+    text-align: center;
+    padding: 10px;
+}
 div#corpo-form h1{
     text-align: center;
     padding: 10px;

@@ -11,18 +11,20 @@ $u = new Usuario;
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
     <div id="corpo-form">
         <h1>Cadastrar</h1>
-        <form method="POST" >
+        <form method="POST" id="form2">
         <input type="text" name="nome"         placeholder="Nome Completo" maxlength="30">
         <input type="text" name="telefone"     placeholder="DDD + Celular" maxlength="12">
         <input type="email" name="email"       placeholder="Usuário" maxlength="40">
         <input type="password"  name="senha"   placeholder="Senha" maxlength="15">
         <input type="password" name="confSenha"placeholder="Confirmar Senha">
-        <input type="submit" value="Cadastrar">
+        <input type="submit" value="Cadastrar" id="bt">
        
     </div>
     
@@ -85,7 +87,12 @@ if(isset($_POST['nome'])){
  
     
     
-    
     ?>
+
+
+
+ <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+ 
 </body>
 </html>

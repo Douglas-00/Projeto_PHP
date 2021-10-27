@@ -34,7 +34,7 @@ class Usuario{
             return true;
         }
     }
-    public function logar(){
+    public function logar($email, $senha){
         global $pdo;
         //verificar se o email e senha estão cadastrados
         $sql = $pdo->prepare("SELECT id_usuario FROM usuarios WHERE email = :e AND senha = :s");
